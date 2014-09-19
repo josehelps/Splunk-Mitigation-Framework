@@ -1,0 +1,5 @@
+#Intentionally left empty make modular input of this to calculate the other 2 mitigation_*.csv lookups
+#id = ID of notable event
+#ioc = indicator which will be mitigated this lookup table is then broken up per indicator (ip/runkeys/etc.)
+#status = failed or successful - if it was mitigated or not
+id,ioc,status

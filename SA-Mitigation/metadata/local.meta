@@ -1,0 +1,51 @@
+[app/ui]
+version = 6.1.3
+modtime = 1409802643.186458000
+
+[app/launcher]
+version = 6.1.3
+modtime = 1409802643.207958000
+
+[correlationsearches/Network%20-%20High%20Confidence%20IDS%20%20-%20Rule]
+owner = admin
+version = 6.1.3
+modtime = 1410216307.226080000
+
+[savedsearches/Network%20-%20High%20Confidence%20IDS%20%20-%20Rule]
+owner = admin
+version = 6.1.3
+modtime = 1410216311.114445000
+
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+version = 6.1.3
+modtime = 1410216512.854623000
+
+[correlationsearches/Network%20-%20Mitigation%20High%20Confidence%20IDS%20%20-%20Rule]
+version = 6.1.3
+modtime = 1410220751.572227000
+
+[savedsearches/Network%20-%20Mitigation%20High%20Confidence%20IDS%20%20-%20Rule]
+version = 6.1.3
+modtime = 1410220753.952581000
+
+[app/credential%3Atest%3Atest%3A]
+owner = admin
+version = 6.1.3
+modtime = 1410849450.855692000
+
+[app/credential%3ALWF%3Aadmin%3A]
+owner = admin
+version = 6.1.3
+modtime = 1410973418.293101000
+
+[app/credential%3ALWF%3Achinamen%3A]
+owner = admin
+version = 6.1.3
+modtime = 1411082261.455107000
+
+[app/credential%3APAN%3Apanservice%3A]
+owner = admin
+version = 6.1.3
+modtime = 1411158063.544096000

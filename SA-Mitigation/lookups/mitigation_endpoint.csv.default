@@ -1,0 +1,4 @@
+#id = ID of notable event
+#regkey = registry key to mitigate on 
+#status = failed or successful - if it was mitigated or not
+id,regkey,status

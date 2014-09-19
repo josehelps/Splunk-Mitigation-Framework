@@ -1,0 +1,43 @@
+Task List:
+[ ]Attack Harness - #1 Launch MSF attack get caught by PA IDS. #2 (Launch CVE-2013-3195, drop shell, upload malware, exe malware, abandon merterperter)  - Brian
+[x]PA up and running - Monzy 
+[x]Correlation Search that alerts on any IDS events to a High priority host. This needs to create a notable event- Jose H.
+[ ]Correlation Search that alerts when any Registry RunKey value is added (with a Random Name). This needs to create a notable event - Jose H.
+[ ]Enable BL Process Correlation Search, also add malware process to lookup table
+[ ]Enable BL Port Correlation Search also add port malware speaks on to lookup table
+[ ]Mitigation Master Searches - pick up alerts from notable events then pipe to custom command to mitigate.. Has concept of too much mitigation/safety check if its receiving too many items to block.(Threshold??)
+[ ]Integrate PANBLOCK custom command into ES use credential store
+[ ]Integrate PROCESS_KILL custom command into ES use credential store - Will log into Windows Host and Kill a process.  
+[ ]If PROCESS_KILL can delete a file on a remote windows machine this would be Bonus points!
+[ ]inputs.conf in UF Windows to collect Registry Data/PS/Netstats.
+[ ] contruct setup.xml that also updates: SplunkEnterpriseSecuritySuite/metadata/default.meta to add app to imports
+
+[ ]Mitigation Center/Mitigation Tracker Dashboard Details:
+
+
+For Tonight - 09/08
+[ ]Get PA IDS Alert logging into Splunk
+[ ]Have IDS search return results from PA IDS alerts
+[ ]Have Mitigation Search Run off IDS notable kicked off
+[ ]If we have time move over the PA command over to SA-Mitigation
+
+Mitigation Tracker
+- How it got blocked - command passed to PAN
+- When - Time stamp of the command
+- Why - Notable event for the command to fire
+— the original events 
+- Result/Confirmation - Status of command and it actually blocked
+- Assurance the attack is no longer being seen (no more IDS alerts)
+Has a form with notable event id, ip or domain name
+
+Mitigation Center
+- what source of alert is most active - causing my blocks/mitigations
+- critical asset or identity protected
+- Mitigation status
+- Level of aggression/safegaurds
+- Critical but not mitigated
+[ ]Slide Deck outline - Jose H. 
+[ ]Piece Environment together - Group
+
+
+

@@ -1,0 +1,5 @@
+#id = ID of notable event
+#ip = network ip to block traffic from
+#status = failed or successful - if it was mitigated or not
+#time = time it was mitigated
+id,ip,status,time
