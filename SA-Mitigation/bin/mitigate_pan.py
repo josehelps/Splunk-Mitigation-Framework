@@ -1,7 +1,6 @@
 ##########################################
 # This is a modifed version of the panChange.py script from the Palo Alto App 
 # This script is meant to be use with Splunk Enterprise Security.
-# Author of the Update: Jose E Hernandez
 # Description: This is a modifed version of the panChange.py script from the Palo Alto App 
 #              This script is meant to be use with Splunk Enterprise Security.
 # Udpates:
