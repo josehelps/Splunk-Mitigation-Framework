@@ -234,6 +234,6 @@ if __name__ == '__main__':
                 logger.info(str(mitigator.killProcByName(str(proc_name))))
 
     except Exception as e:
-        logger.error("There was an issue establishing arguments fro the " + 
+        logger.error("There was an issue establishing arguments for the " + 
                      "mitigateProc search command!")
         logger.exception(str(e))
