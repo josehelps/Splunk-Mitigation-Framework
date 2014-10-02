@@ -49,3 +49,19 @@ modtime = 1411082261.455107000
 owner = admin
 version = 6.1.3
 modtime = 1411158063.544096000
+
+[correlationsearches/Endpoint%20-%20Mitigation%20High%20Confidence%20Registry%20Alert%20-%20Rule]
+version = 6.1.3
+modtime = 1412217495.779696000
+
+[savedsearches/Endpoint%20-%20Mitigation%20High%20Confidence%20Registry%20Alert%20-%20Rule]
+version = 6.1.3
+modtime = 1412217498.332046000
+
+[correlationsearches/Endpoint%20-%20Mitigation%20High%20Confidence%20Registry%20-%20Rule]
+version = 6.1.3
+modtime = 1412220073.288785000
+
+[savedsearches/Endpoint%20-%20Mitigation%20High%20Confidence%20Registry%20-%20Rule]
+version = 6.1.3
+modtime = 1412220075.643117000
