@@ -171,10 +171,11 @@ class Mitigator(object):
             logger.exception(str(e))
 
 if __name__ == '__main__': 
+
     try:        
         results, dummyresults, settings = si.getOrganizedResults()
         keywords, options = si.getKeywordsAndOptions()
-        
+
         for entry in results:
             ## System info
             if "system" in entry:
@@ -190,6 +191,7 @@ if __name__ == '__main__':
 
             mit = Mitigator(system, settings['sessionKey'])
             mit.sendMitigatePIDTask(pid)
+            print 'sent PID ' + pid + ' to be mitigated at ' + system 
 
     except Exception as e:
         logger.error("There was an issue establishing arguments for the " + 
