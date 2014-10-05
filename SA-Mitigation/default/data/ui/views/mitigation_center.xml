@@ -21,7 +21,7 @@
     <panel>
       <single>
         <title>Host in Mitigation</title>
-        <searchString>index=mitigation_* $type$ | stats dc(host)</searchString>
+        <searchString>index=mitigation_* $type$ | stats dc(orig_host)</searchString>
         <earliestTime>$mitigation_time.earliest$</earliestTime>
         <latestTime>$mitigation_time.latest$</latestTime>
         <option name="drilldown">none</option>
@@ -104,7 +104,7 @@
     <panel>
       <chart>
         <title>Mitigation By SourceType</title>
-        <searchString>index=mitigation NOT orig_sourcetype="stash"  $type$ | stats count by orig_sourcetype</searchString>
+        <searchString>index=mitigation_* NOT orig_sourcetype="stash"  * | stats count by orig_sourcetype</searchString>
         <earliestTime>$mitigation_time.earliest$</earliestTime>
         <latestTime>$mitigation_time.latest$</latestTime>
         <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
