@@ -7,8 +7,7 @@ Splunk Mitigation Framework
 * error handling for the endpoint component
 
 ## Presentation Content
-[Slides](prezo/confPrezo.pptx) 
-
+[Slides](prezo/confPrezo.pptx)
 [Demo Video](prezo/Auto Mitigation - Endpoint Example.mp4)
 
 ## Installation
