@@ -9,7 +9,7 @@ Splunk Mitigation Framework
 ## Presentation Content
 [Slides](prezo/confPrezo.pptx)
 
-[Demo Video](prezo/Auto Mitigation - Endpoint Example.mp4)
+[Demo Video](https://www.youtube.com/watch?v=C4UIGNuoRdg)
 
 ## Installation
 Primariy package is the SA-Mitigation which contains a setup function with instructions on what to configure to get the framework setup.
