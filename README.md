@@ -8,6 +8,7 @@ Splunk Mitigation Framework
 
 ## Presentation Content
 [Slides](prezo/confPrezo.pptx)
+
 [Demo Video](prezo/Auto Mitigation - Endpoint Example.mp4)
 
 ## Installation
