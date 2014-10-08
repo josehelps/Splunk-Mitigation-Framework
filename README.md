@@ -26,7 +26,7 @@ coming soon...
 ### SA--Mitigator-Endpoint (Endpoint Component)
 
 #### Endpoing component architecture 
-![search\_arch](images/SA-Mitigation-Endpoint.png)
+![search\_arch](images/SA-Mitigation-Endpoint-arch.png)
 
 #### Installation Instructions
 comin soon...
