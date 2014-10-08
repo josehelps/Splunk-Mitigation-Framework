@@ -7,8 +7,8 @@ Splunk Mitigation Framework
 * error handling for the endpoint component
 
 ## Presentation Content
-[Slides]<prezo/confPrezo.pptx> 
-[Demo Video]<prezo/Auto Mitigation - Endpoint Example.mp4>
+[Slides](prezo/confPrezo.pptx) 
+[Demo Video](prezo/Auto Mitigation - Endpoint Example.mp4)
 
 ## Installation
 Primariy package is the SA-Mitigation which contains a setup function with instructions on what to configure to get the framework setup.
