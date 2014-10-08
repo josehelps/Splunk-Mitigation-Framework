@@ -1,12 +1,32 @@
 Splunk Mitigation Framework
 ===========================
 
+## TODOs
+* setup.xml
+* documentation
+* error handling for the endpoint component
+
+## Presentation Content
+[Slides]<prezo/confPrezo.pptx> 
+[Demo Video]<prezo/Auto Mitigation - Endpoint Example.mp4>
 
 ## Installation
+Primariy package is the SA-Mitigation which contains a setup function with instructions on what to configure to get the framework setup.
 
-### SA-Mitigation Search Head Component
+### SA-Mitigation (Search Head Component)
+Contains all the search logic and the custom commands to take action.
+
+#### Search Architecture
+![search\_arch](images/SA-Mitigation_search_arch.png)
+
+#### Installation Instructions
+coming soon...
 
 ### SA-LWF-Mitigator Endpoint Component
 
-1. install LWF
-2. Enable scheduler in LWF under $SPLUNK\_HOME/etc/apps/SplunkLightForwarder/default/default-mode.conf change `disabled_processors = LiveSplunks` to `diabled_processors = None`
+#### Endpoing component architecture 
+![search\_arch](images/SA-Mitigation-Endpoint.png)
+
+#### Installation Instructions
+comin soon...
+

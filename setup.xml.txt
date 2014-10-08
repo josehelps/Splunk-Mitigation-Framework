@@ -1,0 +1,6 @@
+
+remind user to setup index under role
+remind user to configure searches
+include SA-Mitigation as part of ES pieces
+remind user to make sure host can resolve when sending command
+recreate the dashboard views in ES
