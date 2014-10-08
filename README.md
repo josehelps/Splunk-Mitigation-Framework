@@ -23,7 +23,7 @@ Contains all the search logic and the custom commands to take action.
 #### Installation Instructions
 coming soon...
 
-### SA-LWF-Mitigator Endpoint Component
+### SA--Mitigator-Endpoint (Endpoint Component)
 
 #### Endpoing component architecture 
 ![search\_arch](images/SA-Mitigation-Endpoint.png)
